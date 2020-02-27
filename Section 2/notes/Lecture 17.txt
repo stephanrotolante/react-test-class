@@ -1,0 +1,11 @@
+Testing Component Rendering
+
+One thing the instructor likes to do is put a attribute on the tag and search for it, to make sure that the componetn renders
+
+
+<div data-test="component-app">
+</div>
+
+const wrapper = shallow(<App/>);
+
+const appComponent = wrapper.find("[data-test='component-app']")

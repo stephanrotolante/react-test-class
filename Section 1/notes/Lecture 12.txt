@@ -1,0 +1,16 @@
+Testing Tradeoffs
+
+Easy maintenance of tests
+
+TEST Behavior and not implementation
+
+Test what the app should do not how it works
+
+
+Testing Goal #2 
+
+Easy diagnosis of failing tests
+ 
+Check internal state after each action
+
+

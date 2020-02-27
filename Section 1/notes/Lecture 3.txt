@@ -1,0 +1,13 @@
+TDD: What and Why
+
+TDD -> Test-Driven Development
+
+Writing Tests before the code
+
+Why TDD?
+More Efficient
+Re-Run test easily
+Better code
+More Testable
+Fewer Bugs
+Great Code Coverage

@@ -1,0 +1,3 @@
+OPTIONAL: Removing data-test Attritbutes for Production
+
+npm i --save-dev babel-pligin-react-remove-properties

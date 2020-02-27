@@ -1,0 +1,22 @@
+What does Enzyme do?
+
+Creates a virtual DOM for testing 
+
+Allows testing without a browser
+
+
+Can search through this virtual DOM that allows fro jQuery type selectors and event triggering
+
+
+Shallow Rendering that only renders Components one level deep.. child react components do not get rendered
+
+mount will render children react components
+
+Can manuplate props and state
+
+
+jest enzyme adapter allows for jest and enzyme to talk to each other
+
+import Enzyme and EnzymeAdapter
+
+Enzyme.configure({ adapter: new EnzymeAdapter()}) to initialize it

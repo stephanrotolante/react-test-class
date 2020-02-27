@@ -1,0 +1,5 @@
+You can setup jest to run tests after any changes, or you can set it to run after commits
+
+
+
+it and test are synonmous

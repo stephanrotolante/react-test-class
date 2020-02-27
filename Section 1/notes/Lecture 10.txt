@@ -1,0 +1,3 @@
+Using Enzyme in a Test
+
+.debug() returns a string of the virtual dom
