@@ -1,0 +1,12 @@
+Connected Vs Non Connected
+
+Connected App 
+Closer to App
+Can work with store
+
+Non-conncted component
+Further from App
+Can Pass mock action creators as props
+
+Enzyme Recommends using connected component
+Redux does not recommend usinf connected component

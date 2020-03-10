@@ -1,0 +1,12 @@
+Enzyme Configuration Files
+
+jest automatically looks for src/setupTests.js
+
+You can put all of your Enzyme Configurations in there
+
+
+import Enzyme, { shallow, ShallowWrapper } from 'enzyme';
+import EnzymeAdapter from 'enzyme-adapter-react-16';
+
+
+Enzyme.configure( {adapter: new EnzymeAdapter()});

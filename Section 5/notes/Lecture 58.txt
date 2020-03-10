@@ -1,0 +1,3 @@
+Dive()
+
+Lets you go one level in the component

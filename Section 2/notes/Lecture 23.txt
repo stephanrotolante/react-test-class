@@ -1,0 +1,10 @@
+Acceptance Testing and Review
+
+
+Set up a ver simple React App with Jest and Enzyme
+
+Used Enzyme's Shallow() function to render a component
+
+Tested that required DOM elements were rendered using find()
+
+Used to simulate to interact with rednered elements

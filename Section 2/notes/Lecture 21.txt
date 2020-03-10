@@ -1,0 +1,7 @@
+Test Intial State
+
+.state('key') => returns the value of that state
+
+const initialCounterState = wrapper.state('counter');
+
+expect(initialCounterState).toBe(0)

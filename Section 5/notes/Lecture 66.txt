@@ -1,0 +1,16 @@
+Summary
+
+const setup = ( initialState={}) => {
+
+    const store = storeFactory(initialState);
+
+    const wrapper = shallow(<Input store={store}/>).dive().dive();
+
+    return wrapper;
+};
+
+this is how you test connected components
+
+the store factory creates a store then you pass the store in as a prop
+
+.dive() goes one level deep into the next child

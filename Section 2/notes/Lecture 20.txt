@@ -1,0 +1,6 @@
+DRY REFACTOR
+
+create a fucntion that returns the app with different state
+const setup = (props = {}, state=null) => {
+  return shallow(<App {...props}/>)
+}

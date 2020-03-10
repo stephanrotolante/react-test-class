@@ -1,0 +1,14 @@
+Write Tests and beforeEach for 'no words guessed'
+
+// reset the wrapper value before each test this way we are resuing variables
+    let wrapper;
+
+    beforeEach(() => {
+        wrapper = setup({ guessedWords: []});
+    })
+    test('renders without error', () => {
+
+        const component = findByTestAttr(wrapper,'component-guessed-words');
+
+        expect(component.length).toBe(1);
+    });
