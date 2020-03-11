@@ -1,0 +1,5 @@
+Thunk Test Planning
+
+We are testing action creators ans reducers together
+
+Make seperate intergration test file

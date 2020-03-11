@@ -2,7 +2,8 @@ import { ShallowWrapper } from "enzyme";
 import checkPropTypes from 'check-prop-types';
 
 import rootReducer from '../src/reducers';
-import { createStore } from "redux";
+import { createStore, applyMiddleware } from "redux";
+import {  middlewares, middleware } from "../src/configureStore";
 
 /**
  * Create a testing store with imported reducers, middleware, and initial state.
@@ -12,7 +13,8 @@ import { createStore } from "redux";
  * @returns {Store} from Redux store
  */
 export const storeFactory = (initialState) => {
-    return createStore(rootReducer,initialState);
+    const createStoreWithMiddleware = applyMiddleware(...middleware)(createStore)
+    return createStoreWithMiddleware(rootReducer,initialState);
 }
 /**
  * @function findByTestAttr - Finds attribute within the wrapper

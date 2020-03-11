@@ -1,0 +1,12 @@
+To use moxios
+
+during the tests run
+
+moxios.install() // this will activate axios to use moxios
+
+
+moxios.wait(() => {
+    moxios.requests // you can specify what request and select what response you want back
+})
+
+moxios.uninstall() // this will deactoivate moxios
