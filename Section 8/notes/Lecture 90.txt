@@ -1,0 +1,13 @@
+
+ const getSecretWordMock = jest.fn();
+
+    //Setup app with mock function as prop
+    const wrapper = shallow(<UnconnectedApp getSecretWord={getSecretWordMock}/>);
+
+    // run lifecycle method
+    wrapper.instance().componentDidMount();
+
+    //Check to see if function ran
+    const getSecretWordCallCount = getSecretWordMock.mock.calls.length;
+
+    expect(getSecretWordCallCount).toBe(1);

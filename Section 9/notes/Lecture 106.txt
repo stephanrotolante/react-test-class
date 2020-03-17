@@ -1,0 +1,9 @@
+Jest Mocks
+
+
+3 funcitons
+    prevent network calls
+    spy on when it is called
+    provide return values
+
+Mocking means no destructuring on imports for react

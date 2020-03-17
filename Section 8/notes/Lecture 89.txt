@@ -1,0 +1,12 @@
+Best way to test action creators getting called is using an unconnected component
+
+We pass a mock function
+
+What is a Mock Fucntion?
+- Fake function that runs instead of a real function
+    - Can run alternate code or act as a placeholder
+
+- Jest replaces real function with mock function
+
+- Can assert on how many times it was called during the test
+    - Can be called with arguements
